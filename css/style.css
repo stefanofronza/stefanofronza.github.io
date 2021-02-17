@@ -1,5 +1,5 @@
 @import url(font-awesome.css);
-body{font-family:droid-sans-mono;font-size:17px}
+body{font-family:droid-sans-mono;font-size:35px;text-align:center;}
 h1{font-family:droid-sans-mono;font-size:60px;text-align:center;font-weight:600;}
 h2{font-family:droid-sans-mono;font-size:32px;text-align:center;font-weight:400;}
 h2.medium{font-weight:600;}
