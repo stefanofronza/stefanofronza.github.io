@@ -11,6 +11,23 @@ h1{font-family:droid-sans-mono;font-size:60px;text-align:center;font-weight:600;
 h2{font-family:droid-sans-mono;font-size:32px;text-align:center;font-weight:400;}
 h3{font-family:droid-sans-mono;font-size:30px;text-align:center;font-weight:600;}
 
+/*.fa-whatsapp  {
+  font-size: 1.4em;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color:#25d366;
+	border-radius: 50%;
+}*/
+
 .btn-link3 {
   font-family: droid-sans-mono;
   text-align: center;
