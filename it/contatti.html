@@ -154,11 +154,6 @@
                 element.src = "../js/app.js";
                 document.body.appendChild(element);
             }
-            if (window.addEventListener)
-                window.addEventListener("load", parseJSAtOnload, false);
-            else if (window.attachEvent)
-                window.attachEvent("onload", parseJSAtOnload);
-            else window.onload = parseJSAtOnload;
         </script>
     </body>
 </div>
