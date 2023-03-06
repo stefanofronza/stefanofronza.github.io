@@ -25,14 +25,6 @@
 	<meta name="twitter:title" content="Sito web Stefano Fronza | Gioielli d'autore" />
 	<meta name="twitter:image" content="http://www.stefanofronza.com/images/anteprima.jpg" />
     <title>Stefano Fronza | Gioielli d'autore | Between Music and Rebirth</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07B5V4NE5P"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-07B5V4NE5P');
-    </script>
 </head>
 <div>
     <body>
@@ -52,49 +44,65 @@
         <hr>
         <div class="top-bar right">
             <div class="top-bar-right">
-                <div class="show-for-medium">
-                    <ul class="menu">
-                        <li><a href="../it/between_music.html">IT</a></li>
-                        <li><a href="../en/between_music-en.html">EN</a></li>
-                        </br>
-                    </ul>
+                <div class="show-for-medium" style="margin-top: -5px;">
+					<button><a href="../it/between_music.html" style="margin-right: 7px;">IT</a></button>
+					<button><a href="between_music-en.html">EN</a></button>
                 </div>
                 <div class="show-for-small-only">
-                    <ul class="menu" style="float: right !important;">
-                        <li><a href="../it/between_music.html">IT</a></li>
-                        <li><a href="../en/between_music-en.html">EN</a></li>
-                        </br>
-                    </ul>
+                    <button><a href="../it/between_music.html" style="margin-right: 7px;">IT</a></button>
+					<button><a href="between_music-en.html">EN</a></button>
                 </div>
             </div>
         </div>
-        <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle="menu"></button>
+	<div class="title-bar" data-responsive-toggle="menu2" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="menu2"></button>
             <div class="title-bar-title">Menu</div>
         </div>
-        <div class="show-for-medium">
-            <div class="row column text-center">
-                <ul class="snip1135">
-                    <li><a href="../en/index-en.html">home</a></li>
-                    <li><a href="../en/profile.html">profile</a></li>
-                    <li class="current"><a href="../en/jewels.html">jewels</a></li>
-                    <li><a href="../en/news-en.html">news</a></li>
-                    <li><a href="../en/contacts.html">contacts</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="show-for-small-only">
-            <div id="menu" class="row column text-center">
-                <ul class="snip1135" style="font-size: 15px !important; margin-left: 0 !important;">
-                    <li><a href="../en/index-en.html">home</a></li>
-                    <li><a href="../en/profile.html">profile</a></li>
-                    <li class="current"><a href="../en/jewels.html">jewels</a></li>
-                    <li><a href="../en/news-en.html">news</a></li>
-                    <li><a href="../en/contacts.html">contacts</a></li>
-                </ul>
-            </div>
-        </div>
+        <div id="menu2">
+			<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown"
+				style="margin: 0 auto;
+					width: fit-content; font-family: droid-sans-mono;
+					font-weight: 500;
+					font-size: 18px;">
+				<li style="margin-right: 40px;">
+					<a href="index-en.html">home</a>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">about me</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="profile.html">profile</a></li>
+						<li><a href="my_story.html">my story</a></li>
+						<li><a href="../curriculum/CV_StefanoFronza_en.pdf" target="_blank">CV</a></li>
+					</ul>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#" class="current">jewels</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="concept-en.html">concept</a></li>
+						<li><a href="#">works</a>
+							<ul class="vertical menu" style="min-width:330px !important;font-size:17px;">
+								<li><a href="in_blue-en.html">In Blue</a></li>
+								<li><a href="easy_living-en.html" >Easy living</a></li>
+								<li><a href="glimpses-en.html">Glimpses through the window</a></li>
+								<li><a href="between_music-en.html" class="current">Between Music and Rebirth</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">news</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="news_2022-en.html">2022</a></li>
+						<li><a href="news_2021-en.html">2021</a></li>
+						<li><a href="news_2020-en.html">2020</a></li>
+						<li><a href="news_archive.html">archive</a></li>
+					</ul>
+				</li>
+				<li><a href="contacts.html">contacts</a></li>
+			</ul>
+		</div>
         </br>
+		</br>
         <div class="grid-x grid-padding-x center fluid">
             <div class="large-12 cell center">
                 <div class="show-for-medium">
@@ -115,7 +123,7 @@
             </div>
             <div class="large-12 cell center">
                 <a data-open="modalbroochPresence" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/1_spilla_Presenza_2019_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/1_spilla_Presenza_2019.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%" style="padding-top: 15%;">
                 </a>
                 <a data-open="modalbroochInBetween" class="thumbnail">
@@ -123,7 +131,7 @@
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%" style="padding-bottom: 15%;">
                 </a>
 				<a data-open="modalbroochUnity" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/3_spilla_Unione_2019_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/3_spilla_Unione_2019.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%" style="padding-top: 15%;">
                 </a>               
 				</br>
@@ -131,30 +139,22 @@
                     <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/4_spilla_Labbra.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%">
                 </a>  -->          
-				<div class="show-for-small-only">
-					<a data-open="modalCollana" class="thumbnail">
-						<img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/5_collana_Collegamento ipertestuale_2020_min.jpg"
-							 alt="collana_Collegamento ipertestuale" width="65%" height="30%">
+				<a data-open="modalCollana" class="thumbnail">
+						<img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/5_collana_collegamento ipertestuale_min.jpg"
+							 alt="collana_Collegamento ipertestuale" width="30%" height="30%">
 					</a>
-				</div>
-				<div class="show-for-medium">
-				<a data-open="modalCollanaBig" class="thumbnail">
-						<img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/5_collana_Collegamento ipertestuale_2020_min.jpg"
-							 alt="collana_Collegamento ipertestuale" width="65%" height="30%">
-					</a>
-					</div>
 				</br>
                 <a data-open="modalbroochParole" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/6_Parole di carta_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/6_Parole di carta.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%">
                 </a>
                 <a data-open="modalbroochScie" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/7_Scie tra le vetrine_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/7_Scie tra le vetrine.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%">
                 </a>
 				</br>
                 <a data-open="modalbroochLineeGuida" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/8_spilla_Linee Guida_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/8_spilla_Linee Guida.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%">
                 </a> 
 				<img
@@ -162,25 +162,25 @@
                 alt="" width="30%" height="30%">
 				
 				<a data-open="modalSpillaLineeOriente" class="thumbnail"><img
-                class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/12_Linee d'Oriente_min.jpg"
+                class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/12_Linee d'Oriente.jpg"
                 alt="collana_Collegamento ipertestuale" width="30%" height="30%">
 				</a>
 				</br>
 				<a data-open="modalbroochVenezia" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/11_Spilla_Canali a Venezia_2021_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/11_Spilla_Canali a Venezia.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%">
                 </a>
 				</br>
                 <a data-open="modalbroochPerla" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/10_spilla_Il monte della Perla_2020_min.jpg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/10_spilla_Il monte della Perla.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%"  style="padding-bottom: 15%;">
                 </a>
 				<a data-open="modalSpringLeaf" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/1_Spring Leaf_spilla_min.jpeg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/1_Spring Leaf_spilla.jpg"
                          alt="spilla spring leaf" width="30%" height="30%"  style="padding-top: 15%;">
                 </a>
 				<a data-open="modalSpillaButtomFree" class="thumbnail">
-                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/13_Buttom free_min.jpeg"
+                    <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/13_Buttom free.jpg"
                          alt="collana_Collegamento ipertestuale" width="30%" height="30%"  style="padding-bottom: 15%;">
                 </a>
                 
@@ -202,22 +202,22 @@
                     <button class="contacts dashed thin" style="padding: 0.5rem 4rem !important;">
                         </br>
                         <h2 class="medium">Stefano Fronza</h2>
-                        <b>Email:</b> <a href="mailto:stefano@stefanofronza.com" target="_blank" class="href-mail">stefano@stefanofronza.com</a></br>
-                        <b>Mobile:</b>+39 320 331 5409 </br>
-                        <div class="social">
+						</br>
+                        <b>Email:</b> <a href="mailto:stefano@stefanofronza.com" target="_blank" class="href-mail">stefano@stefanofronza.com</a>
+                         </br></br>
+						 <div class="social">
                             <a href="https://www.facebook.com/stefanogioiellifronza" target="_blank"><i class="fa fa-facebook"></i></a> | <a href="https://www.instagram.com/stefano.fronza23/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            | <a href="https://wa.me/393203315409" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                        </div></br>
+                         </div></br>
                 </div>
                 <div class="show-for-small-only">
                     <button class="contacts dashed thin" style="font-size: 12px;">
                         </br>
                         <h2 class="medium-small">Stefano Fronza</h2>
-                        <b>Email:</b> <a href="mailto:stefano@stefanofronza.com" target="_blank" class="href-mail">stefano@stefanofronza.com</a></br>
-                        <b>Mobile:</b>+39 320 331 5409 </br>
+                        </br>
+						<b>Email:</b> <a href="mailto:stefano@stefanofronza.com" target="_blank" class="href-mail">stefano@stefanofronza.com</a>
+						</br></br>
                         <div class="social">
                             <a href="https://www.facebook.com/stefanogioiellifronza" target="_blank"><i class="fa fa-facebook"></i></a> | <a href="https://www.instagram.com/stefano.fronza23/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            | <a href="https://wa.me/393203315409" target="_blank"><i class="fa fa-whatsapp"></i></a>
                         </div>
                         </br>
                 </div>
@@ -276,20 +276,8 @@
             </p>
             <p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
-		 <div class="reveal small" id="modalCollanaBig" data-reveal style="width: 60% !important;">
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/5_collana_Collegamento ipertestuale_2020.jpg" width="120%" height="30%">
-            <div class="show-for-small-only">
-                <button class="close-button-small" data-close aria-label="Close modal" type="button">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <p>
-                <b>Hypertext Link</b> </br> necklace | 46x34x1 cm | print on Dibond, aluminium, steel
-            </p>
-            <p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
-        </div>
         <div class="reveal small" id="modalCollana" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/5_collana_Collegamento ipertestuale_2020.jpg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/5_collana_collegamento ipertestuale.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -301,7 +289,7 @@
             <p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
         <div class="reveal small" id="modalbroochParole" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/6_Parole di carta_StefanoFronza.jpg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/6_Parole di carta.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -313,7 +301,7 @@
             <p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
         <div class="reveal small" id="modalbroochScie" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/7_Scie tra le vetrine_Stefano Fronza.jpg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/7_Scie tra le vetrine.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -325,7 +313,7 @@
             <p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
         <div class="reveal small" id="modalbroochLineeGuida" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/8_spilla_Linee Guida_Stefano Fronza.jpg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/8_spilla_Linee Guida.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -346,7 +334,7 @@
 		<p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
 		<div class="reveal small" id="modalSpillaButtomFree" data-reveal>
-          <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/13_Buttom free.jpeg">
+          <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/13_Buttom free.jpg">
           <button class="close-button" data-close aria-label="Close modal" type="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -355,7 +343,7 @@
 		<p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
         <div class="reveal small" id="modalbroochPerla" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/10_spilla_Il monte della Perla_2020.jpg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/10_spilla_Il monte della Perla.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -367,7 +355,7 @@
             <p class="right"><small><a href="#" data-open="modalMessaggio" class="href-menu">More details?</a></small></p>
         </div>
         <div class="reveal small" id="modalbroochVenezia" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/11_Spilla_Canali a Venezia_ Stefano Fronza_2021.jpg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/11_Spilla_Canali a Venezia.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -380,7 +368,7 @@
         </div>
 		
 		<div class="reveal small" id="modalSpringLeaf" data-reveal>
-            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/1_Spring Leaf_spilla.jpeg">
+            <img class="lazyload" data-src="../images/gioielli/Between Music and Rebirth/1_Spring Leaf_spilla.jpg">
             <div class="show-for-small-only">
                 <button class="close-button-small" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -394,24 +382,26 @@
 		
         </br>
         <hr />
-         <footer>
-        Copyright © 2021 Stefano Fronza | All Rights Reserved</br>
+<footer>
+    Copyright © 2023 Stefano Fronza | All Rights Reserved</br>
         Texts by <em>Micaela Vettori</em> | Website by <em>Laura Zampa</em> | Traduzioni <a href="httsp://www.globustraduzioni.it" target="_blank"><em style="color: #8a8a8a !important;">Globus Traduzioni</em></a></br>
-        Stefano Fronza - Trento (Italia)</br>
-        <div class="social">
-			<div class="show-for-medium">
-				<!--<a href="https://www.facebook.com/stefanogioiellifronza" target="_blank"><i class="fa fa-facebook"></i></a> | <a href="https://www.instagram.com/stefano.fronza23/" target="_blank"><i class="fa fa-instagram"></i></a>
-				| <a href="https://wa.me/393203315409" target="_blank"><i class="fa fa-whatsapp"></i></a> | <a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="2.5%" alt="logo AGC" /></a>-->
-				<a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="2.5%" alt="logo AGC" /></a> | <a href="https://klimt02.net/jewellers/stefano-fronza" target="_blank"><img src="https://klimt02.net/images/logo_web_150.png" width="4%" alt="logo Klimt" /></a>
-			</div>
-			<div class="show-for-small-only">
-				 <!--<a href="https://www.facebook.com/stefanogioiellifronza" target="_blank"><i class="fa fa-facebook"></i></a> | <a href="https://www.instagram.com/stefano.fronza23/" target="_blank"><i class="fa fa-instagram"></i></a>
-				| <a href="https://wa.me/393203315409" target="_blank"><i class="fa fa-whatsapp"></i></a> | <a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="11%" height="auto" alt="logo AGC" /></a>-->
-				<a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="11%" alt="logo AGC" /></a> | <a href="https://klimt02.net/jewellers/stefano-fronza" target="_blank"><img src="https://klimt02.net/images/logo_web_150.png" width="15%" alt="logo Klimt" /></a>
-			</div>
+        Stefano Fronza - Trento (Italy)</br>
+    <div class="social">
+        <div class="show-for-medium">
+            <!--<a href="https://www.facebook.com/stefanogioiellifronza" target="_blank"><i class="fa fa-facebook"></i></a> | <a href="https://www.instagram.com/stefano.fronza23/" target="_blank"><i class="fa fa-instagram"></i></a>
+            | <a href="https://wa.me/393203315409" target="_blank"><i class="fa fa-whatsapp"></i></a> | <a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="2.5%" alt="logo AGC" /></a>-->
+			<a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="2.5%" alt="logo AGC" /></a> | <a href="https://klimt02.net/jewellers/stefano-fronza" target="_blank"><img src="https://klimt02.net/images/logo_web_150.png" width="4%" alt="logo Klimt" /></a>
 		</div>
-        </br>
-    </footer>
+        <div class="show-for-small-only">
+             <!--<a href="https://www.facebook.com/stefanogioiellifronza" target="_blank"><i class="fa fa-facebook"></i></a> | <a href="https://www.instagram.com/stefano.fronza23/" target="_blank"><i class="fa fa-instagram"></i></a>
+            | <a href="https://wa.me/393203315409" target="_blank"><i class="fa fa-whatsapp"></i></a> | <a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="11%" height="auto" alt="logo AGC" /></a>-->
+			<a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="../images/logo_agc.png" width="11%" alt="logo AGC" /></a> | <a href="https://klimt02.net/jewellers/stefano-fronza" target="_blank"><img src="https://klimt02.net/images/logo_web_150.png" width="15%" alt="logo Klimt" /></a>
+        </div>
+    </div>
+    </br>
+		Last update: march 2023
+    </br>
+</footer>
         <div class="show-for-medium">
             <br />
         </div>
@@ -431,11 +421,6 @@
         element.src = "../js/app.js";
         document.body.appendChild(element);
     }
-    if (window.addEventListener)
-        window.addEventListener("load", parseJSAtOnload, false);
-    else if (window.attachEvent)
-        window.attachEvent("onload", parseJSAtOnload);
-    else window.onload = parseJSAtOnload;
 </script>
 </body>
 </div>

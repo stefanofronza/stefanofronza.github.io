@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/style.css">
     <meta property="og:locale" content="it_IT" />
-	<meta property="og:image" content="https://stefanofronza.com/images/anteprima_min.jpg" />
+	<meta property="og:image" content="https://stefanofronza.com/images/anteprima_min72.jpg" />
 	<meta property="og:site_name" content="Stefano Fronza" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://www.stefanofronza.com" />
@@ -23,16 +23,8 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:description" content="Sito web Stefano Fronza | Gioielli d'autore" >
 	<meta name="twitter:title" content="Sito web Stefano Fronza | Gioielli d'autore" />
-	<meta name="twitter:image" content="http://www.stefanofronza.com/images/anteprima.jpg" />
+	<meta name="twitter:image" content="http://www.stefanofronza.com/images/anteprima72.jpg" />
     <title>Stefano Fronza | Gioielli d'autore</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07B5V4NE5P"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-07B5V4NE5P');
-    </script>
 </head>
 <body>
     <a id="return-to-top" alt="Torna in cima alla pagina"><i class="fa fa-chevron-up"></i></a>
@@ -51,76 +43,92 @@
     <hr>
     <div class="top-bar right">
         <div class="top-bar-right">
-            <div class="show-for-medium">
-                <ul class="menu">
-                    <li><a href="index.html">IT</a></li>
-                    <li><a href="en/index-en.html">EN</a></li>
-                    </br>
-                </ul>
+                <div class="show-for-medium" style="margin-top: -5px;">
+					<button><a href="index.html" style="margin-right: 7px;">IT</a></button>
+					<button><a href="en/index-en.html">EN</a></button>
+                </div>
+                <div class="show-for-small-only">
+                    <button><a href="index.html" style="margin-right: 7px;">IT</a></button>
+					<button><a href="en/index-en.html">EN</a></button>
+                </div>
             </div>
-            <div class="show-for-small-only">
-                <ul class="menu" style="float: right !important;">
-                    <li><a href="index.html">IT</a></li>
-                    <li><a href="en/index-en.html">EN</a></li>
-                    </br>
-                </ul>
-            </div>
-        </div>
     </div>
-    <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="menu"></button>
+	<div class="title-bar" data-responsive-toggle="menu2" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="menu2"></button>
         <div class="title-bar-title">Menu</div>
     </div>
-    <div class="show-for-medium">
-        <div class="row column text-center">
-            <ul class="snip1135">
-                <li class="current"><a href="index.html">home</a></li>
-                <li><a href="it/profilo.html">profilo</a></li>
-                <li><a href="it/gioielli.html">gioielli</a></li>
-                <li><a href="it/news.html">news</a></li>
-                <li><a href="it/contatti.html">contatti</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="show-for-small-only">
-        <div id="menu" class="row column text-center">
-            <ul class="snip1135" style="font-size: 15px !important; margin-left: 0 !important;">
-                <li class="current"><a href="index.html">home</a></li>
-                <li><a href="it/profilo.html">profilo</a></li>
-                <li><a href="it/gioielli.html">gioielli</a></li>
-                <li><a href="it/news.html">news</a></li>
-                <li><a href="it/contatti.html">contatti</a></li>
-            </ul>
-        </div>
-    </div>
+	<div id="menu2">
+			<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown"
+				style="margin: 0 auto;
+					width: fit-content; font-family: droid-sans-mono;
+					font-weight: 500;
+					font-size: 18px;">
+				<li style="margin-right: 40px;">
+					<a href="index.html" class="current">home</a>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">chi sono</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="it/profilo.html">profilo</a></li>
+						<li><a href="it/la_mia_storia.html">la mia storia</a></li>
+						<li><a href="curriculum/CV_StefanoFronza.pdf" target="_blank">curriculum</a></li>
+					</ul>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">gioielli</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="it/concept.html">concept</a></li>
+						<li><a href="#">lavori</a>
+							<ul class="vertical menu" style="min-width:330px !important;font-size:17px;">
+								<li><a href="it/in_blue.html">In Blue</a></li>
+								<li><a href="it/easy_living.html">Easy living</a></li>
+								<li><a href="it/glimpses.html">Glimpses through the window</a></li>
+								<li><a href="it/between_music.html">Between Music and Rebirth</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">news</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="it/news_2022.html">2022</a></li>
+						<li><a href="it/news_2021.html">2021</a></li>
+						<li><a href="it/news_2020.html">2020</a></li>
+						<li><a href="it/archivio_news.html">archivio</a></li>
+					</ul>
+				</li>
+				<li><a href="it/contatti.html">contatti</a></li>
+			</ul>
+		</div>
+	</br>
     <div class="show-for-medium">
         <div class="orbit" role="region" aria-label="Anteprima gioielli" data-orbit>
             <ul class="orbit-container">
                 <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#10094;</button>
                 <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#10095;</button>
 				<li class="orbit-slide is-active">
-                    <a href="#" data-open="modalDream"><img class="lazyload" data-src="images/home/piece of a Dream.png"></a>
+                    <a href="#" data-open="modalDream"><img class="lazyload" data-src="images/home/piece of a Dream72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalFigura"><img class="lazyload" data-src="images/home/figura_cut.jpg"></a>
+                    <a href="#" data-open="modalFigura"><img class="lazyload" data-src="images/home/figura_cut72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalLuce"><img class="lazyload" data-src="images/home/luce.jpg"></a>
+                    <a href="#" data-open="modalLuce"><img class="lazyload" data-src="images/home/luce72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalRisorsa"><img class="lazyload" data-src="images/home/risorsa.jpg"></a>
+                    <a href="#" data-open="modalRisorsa"><img class="lazyload" data-src="images/home/risorsa72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalSegnali"><img class="lazyload" data-src="images/home/segnali.jpg"></a>
+                    <a href="#" data-open="modalSegnali"><img class="lazyload" data-src="images/home/segnali72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modal12"><img class="lazyload" data-src="images/home/terrestre.jpg"></a>
+                    <a href="#" data-open="modal12"><img class="lazyload" data-src="images/home/terrestre72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modal16"><img class="lazyload" data-src="images/home/segniVe.jpg"></a>
+                    <a href="#" data-open="modal16"><img class="lazyload" data-src="images/home/segniVe72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modal18"><img class="lazyload" data-src="images/home/pesce.jpg"></a>
+                    <a href="#" data-open="modal18"><img class="lazyload" data-src="images/home/pesce72.jpg"></a>
                 </li>
             </ul>
         </div>
@@ -132,29 +140,29 @@
                 <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#10094;</button>
                 <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#10095;</button>
 				<li class="orbit-slide is-active">
-					<a href="#" data-open="modalDream"><img class="lazyload" data-src="images/home/piece of a Dream.png"></a>
+					<a href="#" data-open="modalDream"><img class="lazyload" data-src="images/home/piece of a Dream72.jpg"></a>
                 </li>				
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalFigura"><img class="lazyload" data-src="images/home/figura_cut.jpg"></a>
+                    <a href="#" data-open="modalFigura"><img class="lazyload" data-src="images/home/figura_cut72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalLuce"><img class="lazyload" data-src="images/home/luce.jpg"></a>
+                    <a href="#" data-open="modalLuce"><img class="lazyload" data-src="images/home/luce72.jpg"></a>
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalRisorsa"><img class="lazyload" data-src="images/home/risorsa.jpg"></a> 
+                    <a href="#" data-open="modalRisorsa"><img class="lazyload" data-src="images/home/risorsa72.jpg"></a> 
 					<!--style="height: 150px !important;"></a>-->
                 </li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modalSegnali"><img class="lazyload" data-src="images/home/segnali.jpg"></a> 
+                    <a href="#" data-open="modalSegnali"><img class="lazyload" data-src="images/home/segnali72.jpg"></a> 
 					<!--style="height: 150px !important;"></a>--></li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modal12"><img class="lazyload" data-src="images/home/terrestre.jpg"></a> 
+                    <a href="#" data-open="modal12"><img class="lazyload" data-src="images/home/terrestre72.jpg"></a> 
 					<!--style="height: 150px !important;"></a>--></li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modal16"><img class="lazyload" data-src="images/home/segniVe.jpg"></a> 
+                    <a href="#" data-open="modal16"><img class="lazyload" data-src="images/home/segniVe72.jpg"></a> 
 					<!--style="height: 150px !important;"></a>--></li></li>
                 <li class="orbit-slide">
-                    <a href="#" data-open="modal18"><img class="lazyload" data-src="images/home/pesce.jpg"></a>
+                    <a href="#" data-open="modal18"><img class="lazyload" data-src="images/home/pesce72.jpg"></a>
                 </li>
             </ul>
         </div>
@@ -250,13 +258,13 @@
     </br>
 	<div class="row column text-center">
 	<blockquote>
-  <em>"L'arte spazza la nostra anima dalla polvere della quotidianità."</em>
-  <cite>PABLO PICASSO</cite>
+  <em>"L'arte non riproduce ciò che è visibile, ma rende visibile ciò che non sempre lo è."</em>
+  <cite>(Paul Klee)</cite>
 </blockquote>                                                                                       
 	</div>
     <hr />
     <footer>
-        Copyright © 2021 Stefano Fronza | All Rights Reserved</br>
+        Copyright © 2023 Stefano Fronza | All Rights Reserved</br>
         Testi <em>Micaela Vettori</em> | Sito web <em>Laura Zampa</em> | Traduzioni <a href="httsp://www.globustraduzioni.it" target="_blank"><em style="color: #8a8a8a !important;">Globus Traduzioni</em></a></br>
         Stefano Fronza - Trento (Italia)</br>
         <div class="social">
@@ -271,6 +279,8 @@
 				<a href="https://www.agc-it.org/it/soci/477-stefano-fronza.html" target="_blank"><img src="images/logo_agc.png" width="11%" alt="logo AGC" /></a> | <a href="https://klimt02.net/jewellers/stefano-fronza" target="_blank"><img src="https://klimt02.net/images/logo_web_150.png" width="15%" alt="logo Klimt" /></a>
 			</div>
 		</div>
+		</br>
+		Ultimo aggiornamento: marzo 2023
         </br>
     </footer>
     <div class="show-for-medium">
