@@ -1,112 +1,190 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>http://www.stefanofronza.com/</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/index.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/index-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/profilo.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/gioielli.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/news.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/contatti.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/profile.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/jewels.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/news-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/contacts.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/curriculum/2_cv%20Stefano%20Fronza%20italiano.pdf</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/between_music.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/easy_living.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/glimpses.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/curriculum/2_cv%20Stefano%20Fronza%20inglese.pdf</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/between_music-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/easy_living-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/glimpses-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/glimpses-en</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--Url Extract: 31-->
+  <url>
+    <loc>https://stefanofronza.com/</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/index.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/index-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/profilo.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/la_mia_storia.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/concept.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/in_blue.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/easy_living.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/glimpses.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/between_music.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/news_2022.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/news_2021.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/news_2020.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/archivio_news.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/it/contatti.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/profile.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/my_story.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/concept-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/in_blue-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/easy_living-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/glimpses-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/between_music-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/news_2022-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/news_2021-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/news_2020-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/news_archive.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/contacts.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/my_story-en.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/concept.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/en/in_blue.html</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stefanofronza.com/images/news/4_giugno%202020_mostra%20online%20luce%20alla%20thereza%20pedrosa%20gallery%20di%20asolo%20(tv)_2020/video%20mostra%20luce.mp4</loc>
+    <lastmod>2023-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
