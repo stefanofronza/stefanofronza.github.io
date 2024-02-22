@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://www.stefanofronza.com/sitemap.xml
+Sitemap: http://www.stefanofronza.com/sitemap.xml
