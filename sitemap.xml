@@ -8,103 +8,73 @@
 
 
 <url>
-  <loc>http://www.stefanofronza.com/</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
+  <loc>https://stefanofronza.com/</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/index.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
+  <loc>https://stefanofronza.com/index.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/en/index-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/en/index-en.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/it/profilo.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
+  <loc>https://stefanofronza.com/it/chi_sono/profilo.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/it/gioielli.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
+  <loc>https://stefanofronza.com/it/chi_sono/la_mia_storia.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/it/news.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
+  <loc>https://stefanofronza.com/it/chi_sono/recensioni.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/it/contatti.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
+  <loc>https://stefanofronza.com/curriculum/CV_StefanoFronza.pdf</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/en/profile.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/en/profile.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/en/jewels.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/en/my_story.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/en/news-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/en/reviews.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/en/contacts.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/curriculum/CV_StefanoFronza_en.pdf</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/curriculum/2_cv%20Stefano%20Fronza%20italiano.pdf</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/en/contacts.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/it/between_music.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/easy_living.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/it/glimpses.html</loc>
-  <lastmod>2021-04-22T12:39:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/curriculum/2_cv%20Stefano%20Fronza%20inglese.pdf</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/en/concept-en.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.stefanofronza.com/en/between_music-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/easy_living-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/glimpses-en.html</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.stefanofronza.com/en/glimpses-en</loc>
-  <lastmod>2021-04-22T12:39:56+00:00</lastmod>
+  <loc>https://stefanofronza.com/it/concept.html</loc>
+  <lastmod>2025-05-26T12:29:15+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 
