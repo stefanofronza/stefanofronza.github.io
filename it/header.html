@@ -1,0 +1,88 @@
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	
+	<!-- Definisci la parte comune del percorso come una variabile -->
+<script>
+    var baseUrl = "/stefano/it/";
+</script>
+
+	<div class="row column text-center">
+        <div class="show-for-medium">
+            </br>
+            <a href="../index.html" class="home"><h1>Stefano Fronza</h1></a>
+            <a href="../index.html" class="home"><h2>gioielli d'autore</h2></a>
+        </div>
+        </br>
+        <div class="show-for-small-only">
+            <a href="../index.html" class="home"><h1 class="h1-small-menu">Stefano Fronza</h1></a>
+            <a href="../index.html" class="home"><h2 class="h2-small-menu">gioielli d'autore</h2></a>
+        </div>
+    </div>
+    <hr>
+    <div class="top-bar right">
+        <div class="top-bar-right">
+                <div class="show-for-medium" style="margin-top: -5px;">
+					<button><a href="../index.html" style="margin-right: 7px;">IT</a></button>
+					<button><a href="../en/index-en.html">EN</a></button>
+                </div>
+                <div class="show-for-small-only">
+                    <button><a href="../index.html" style="margin-right: 7px;">IT</a></button>
+					<button><a href="../en/index-en.html">EN</a></button>
+                </div>
+            </div>
+    </div>
+
+<div class="title-bar" data-responsive-toggle="menu2" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="menu2"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+	
+<div id="menu2">
+    <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown"
+        style="margin: 0 auto;
+            width: fit-content; font-family: droid-sans-mono;
+            font-weight: 500;
+            font-size: 18px;">
+        <li style="margin-right: 40px;">
+            <a href="../index.html" id="home-link">home</a>
+        </li>
+        <li style="margin-right: 40px;">
+					<a href="#" id="chi_sono">chi sono</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="chi_sono/profilo.html" id="profilo">profilo</a></li>
+						<li><a href="chi_sono/la_mia_storia.html" id="storia">la mia storia</a></li>
+						<li><a href="../curriculum/CV_StefanoFronza.pdf" target="_blank">curriculum</a></li>
+					</ul>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">gioielli</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="/stefano/it/concept.html" id="concept">concept</a></li>
+						<li><a href="#">lavori</a>
+							<ul class="vertical menu" style="min-width:330px !important;font-size:17px;">
+								<li><a href="/stefano/it/lavori/the_mirror.html" id="the_mirror">the mirror</a></li>
+								<li><a href="/stefano/it/lavori/easy_living.html" id="easy_living">easy living</a></li>
+								<li><a href="/stefano/it/lavori/glimpses.html" id="glimpses">glimpses through the window</a></li>
+								<li><a href="/stefano/it/lavori/between_music.html" id="between">between music and rebirth</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li style="margin-right: 40px;">
+					<a href="#">news</a>
+					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'news/news_2023.html'">2023</a></li>
+						<li><a href="/stefano/it/news/news_2022.html" id="2022">2022</a></li>
+						<li><a href="/stefano/it/news/news_2021.html" id="2021" >2021</a></li>
+						<li><a href="/stefano/it/news/archivio_news.html" id="archivio">archivio</a></li>
+					</ul>
+				</li>
+				<li><a href="contatti.html" id="contatti">contatti</a></li>
+    </ul>
+</div>
+
+<script src="../js/vendor/jquery.js"></script>
+<script src="../js/vendor/foundation.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/lazysizes.min.js" async></script>
