@@ -102,16 +102,16 @@
 					<a href="../../index.html">home</a>
 				</li>
 				<li style="margin-right: 40px;">
-					<a href="#">chi sono</a>
+					<a href="#">profilo</a>
 					<ul class="vertical menu" style="font-size:17px;">
-						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/chi_sono/profilo.html'">profilo</a></li>
+						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/chi_sono/profilo.html'">chi sono</a></li>
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/chi_sono/la_mia_storia.html'">la mia storia</a></li>
-						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/chi_sono/recensioni.html'">recensioni</a></li>
+						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/chi_sono/recensioni.html'">dicono di me</a></li>
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'curriculum/CV_StefanoFronza.pdf'" target="_blank">CV</a></li>
 					</ul>
 				</li>
 				<li style="margin-right: 40px;">
-					<a href="#">gioielli</a>
+					<a href="#" class="current">gioielli</a>
 					<ul class="vertical menu" style="min-width:330px !important;font-size:17px;">
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/lavori/reality_in_suspense.html'">reality in suspense</a></li>
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/lavori/the_mirror.html'" class="current">the mirror</a></li>
@@ -123,9 +123,9 @@
 				<li style="margin-right: 40px;">
 					<a href="#">news</a>
 					<ul class="vertical menu" style="font-size:17px;">
+						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/news/news_2025.html'">2025</a></li>
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/news/news_2024.html'">2024</a></li>
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/news/news_2023.html'">2023</a></li>
-						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/news/news_2022.html'">2022</a></li>
 						<li><a href="javascript:void(0)" onclick="window.location.href = baseUrl + 'it/news/archivio_news.html'">archivio</a></li>
 					</ul>
 				</li>
@@ -163,8 +163,8 @@
                          alt="Children" width="30%" height="30%" style="margin-left: 15%;">
                 </a>
 				</br>
-				<a href="#" onclick="openAndShowModal('modal4',modalData)" class="thumbnail">
-                    <img class="lazyload" data-src="../../images/gioielli/The Mirror/4.jpg"
+				<a href="#" onclick="openAndShowModal('modal8',modalData)" class="thumbnail">
+                    <img class="lazyload" data-src="../../images/gioielli/The Mirror/8.jpg"
                          alt="Chevrolet" width="30%" height="30%">
                 </a>
                 </br>
@@ -178,6 +178,10 @@
                 </a>
 				<a href="#" onclick="openAndShowModal('modal7',modalData)" class="thumbnail">
                     <img class="lazyload" data-src="../../images/gioielli/The Mirror/7.jpg"
+                         alt="Silicon" width="30%" height="30%">
+                </a>
+				<a href="#" onclick="openAndShowModal('modal4',modalData)" class="thumbnail">
+                    <img class="lazyload" data-src="../../images/gioielli/The Mirror/4.jpg"
                          alt="Silicon" width="30%" height="30%">
                 </a>
 				</br>
@@ -244,10 +248,10 @@
 	
 			 <div class="slideshow-container" id="modal3-slides"></div>			
 		</div>			
-		<div class="reveal small" id="modal4" data-reveal>
-            <span class="prev-slide" onclick="plusSlides(-1, 'modal4',modalData)">&#10094;</span>
-			<span class="next-slide" onclick="plusSlides(1, 'modal4',modalData)">&#10095;</span>	
-			<div class="slideshow-container" id="modal4-slides"></div>
+		<div class="reveal small" id="modal8" data-reveal>
+            <span class="prev-slide" onclick="plusSlides(-1, 'modal8',modalData)">&#10094;</span>
+			<span class="next-slide" onclick="plusSlides(1, 'modal8',modalData)">&#10095;</span>	
+			<div class="slideshow-container" id="modal8-slides"></div>
 		</div>	
 			<div class="reveal small" id="modal5" data-reveal>
             <span class="prev-slide" onclick="plusSlides(-1, 'modal5',modalData)">&#10094;</span>
@@ -266,11 +270,16 @@
 			<span class="next-slide" onclick="plusSlides(1, 'modal7',modalData)">&#10095;</span>	
 			<div class="slideshow-container" id="modal7-slides"></div>
 		</div>	
+		<div class="reveal small" id="modal4" data-reveal>
+            <span class="prev-slide" onclick="plusSlides(-1, 'modal4',modalData)">&#10094;</span>
+			<span class="next-slide" onclick="plusSlides(1, 'modal4',modalData)">&#10095;</span>	
+			<div class="slideshow-container" id="modal4-slides"></div>
+		</div>	
         </br>
         <hr />
 		
 <footer>
-        Copyright © 2025 Stefano Fronza - Trento (Italia) | All Rights Reserved</br>
+        Copyright © 2026 Stefano Fronza - Trento (Italia) | All Rights Reserved</br>
         Testi scritti da Micaela Vettori, Nicola Loizzo, Stefano Fronza</br>
 
         <div class="social">
@@ -286,7 +295,7 @@
 			</div>
 		</div>
 		</br>
-		Ultimo aggiornamento: maggio 2025
+		Ultimo aggiornamento: settembre 2026
         </br>
     </footer>
 	
@@ -321,35 +330,42 @@
 		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
 		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
-		],
-    "modal2": [
-		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
+],
+    "modal2": [
+		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+				{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}
 		], 
 	"modal3": [
 		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
+
 		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
+				{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+
+{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
 		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
 		],
-    "modal4": [
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+    "modal8": [
+			{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
+
 		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
+				{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
 		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
 		],
@@ -357,29 +373,46 @@
 		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
+				{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },		{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
+
+{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
 		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
-		],
+				{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" }
+],
     "modal6": [
 		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
+{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+
+{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
 		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+						{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
 		],
     "modal7": [
+			{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+
 		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
 		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
-		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+				{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
+{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
 		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" }
-		]
+		],
+	"modal4": [
+	{src:  "../../images/gioielli/The Mirror/4.jpg", description: "<b>Nature is coming...</b> </br><em>La luce che esplode parla la voce della natura che incide e intacca le opere dell’uomo e tutte le sue illusioni.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+
+		{src:  "../../images/gioielli/The Mirror/1.jpg", description: "<b>A Miracle</b><br/><em>Linee di luce simmetriche e perfette, proteggono la creatura innocente che emerge dal rosso profondo.</em><br/><p class='didascalia'>spilla | 8,5 x 5,9 x 1,3 cm | immagine impressa su Dibond, alluminio, titanio e acciaio", moreInfo: ""}, 
+		{src:  "../../images/gioielli/The Mirror/2.jpg", description: "<b>Venezia</b></br><em>Nella bellezza di S. Marco si perde l’anima dell’artista e quei tratti maestosi esplodono in linee tenui e mille riflessi che generano profili di donna e un siluro pronto a varcare la profondità degli abissi.</em></br><p class='didascalia'>spilla | 8,5 x 6,5 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/3.jpg", description: "<b>Saturno</b> </br>	<em>La sospensione di una linea nello spazio, la sua ombra riflessa oltre la luce. Traccia e sogno, di una presenza.</em></br> <p class='didascalia'>spilla | 8,5 x 6,2 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+				{src:  "../../images/gioielli/The Mirror/8.jpg", description: "<b>Pipistrello</b> </br><em>Passando dall'opera di Strauss al teatro dove si svolse l'operetta a Salisburgo.</em></br><p class='didascalia'>spilla |  8 x 5,5 x 1,4 cm | immagine impressa su Dibond, PVC, alluminio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/5.jpg", description: "<b>Children’s climb</b> </br><em>Un gioiello per raccontare la gioia: scalare e arrampicarsi il gioco dei bambini.</em></br><p class='didascalia'>spilla | 8,4 x 6,3 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/6.jpg", description: "<b>Silicon Valley</b> </br><em>Uno specchio della grandezza e complessità della tecnologia. Un piccolo e unico microchip nell’universo.</em></br></p><p class='didascalia'>spilla | 8 x 5,7 x 1,2 cm | immagine impressa su Dibond, alluminio, titanio e acciaio</p>", moreInfo: "" },
+		{src:  "../../images/gioielli/The Mirror/7.jpg", description: "<b>Chevrolet</b> </br><em>Dal nero buio ai colori di luce incendiata, dal basso verso l’alto si staglia l’icona scheletrica di un antico marchio americano.</em></br><p class='didascalia'>spilla | 8,2 x 6 x 1,3 cm | immagine impressa su Dibond, titanio e acciaio</p>", moreInfo: "" }
+]
 };
  </script>
 </body>
