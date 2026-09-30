@@ -14,8 +14,15 @@ cite:before {
     content: "" !important;
 }
 
+.orbit,
+.orbit-container-small {
+    margin-bottom: 0 !important;
+}
+
 blockquote, blockquote p {
     color: black !important;
+	margin: 0 0 0.5rem 0 !important;
+    padding-top: 0 !important;
 }
 
 h1, h2, h3, h1.h1-small-menu, h2.h2-small-menu, h3.h3-small-menu {
@@ -463,8 +470,23 @@ div.languages {
 }
 
 .orbit-container-small {
-    height: 230px !important;
-	margin-left: 0px !important;
+    height: auto !important;
+    aspect-ratio: 4500 / 3356;
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+.orbit-container-small .orbit-slide,
+.orbit-container-small .orbit-slide a {
+    display: block;
+    height: 100%;
+}
+
+.orbit-container-small .orbit-slide img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: contain;
+    object-position: center top;
 }
 
 ul.orbit-container-gioielli {
